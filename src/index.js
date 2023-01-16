@@ -42,7 +42,6 @@ function decode(expr) {
     let result = "";
     let tmp = "";
     let x = 0;
-    console.log(expr);
     for(let i = 0; i < expr.length; i = i++) {
         while(x < 10){
             x++;
